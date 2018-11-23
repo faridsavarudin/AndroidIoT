@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/riot_logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/username"
+        android:id="@+id/edt_username"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="19dp"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/password"
+        android:id="@+id/edt_password"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:layout_marginBottom="19dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_login"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="@string/login"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
